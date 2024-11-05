@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: lightgray;
+    overflow-x: hidden;
+}
+
+.container{
+    align-items: center;
+}
+table{
+    margin-right: 25rem;
+    height: 14rem;
+    
+}
+table caption{
+    background-color: rgb(148, 179, 179);
+}
+.col1{
+    background-color: rgba(87, 194, 221, 0.3);
+}
+.col2{
+    background-color: rgba(182, 255, 114, 0.3);
+}
+
+
+
+
+
+.pic-bg{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../src/images/creed.jpg) !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 37%;
+    background-size: cover;
+
+}
+.pic-bg h1{
+    margin-right: 20%;
+}
+
+footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(223, 223, 223, 0.699);
+}
+.address{
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.frame{
+    margin-right: 50%;
+
+}
